@@ -5,7 +5,7 @@ metadata:
   labels:
     app: saga-recommender-api
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: saga-recommender-api
