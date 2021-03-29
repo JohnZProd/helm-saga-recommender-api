@@ -1,0 +1,5 @@
+apiVersion: v2
+name: saga-ra3-recommender-api
+description: A Helm chart to install the recommender-api
+version: 0.1.0
+appVersion: 1.0
