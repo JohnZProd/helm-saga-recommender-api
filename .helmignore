@@ -1,1 +1,5 @@
-buildspec*
+*
+
+!Chart.yaml
+!values.yaml
+!templates/*
