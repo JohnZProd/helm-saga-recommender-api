@@ -13,6 +13,7 @@ phases:
       - ./get_helm.sh
   build:
     commands:
+      - ls
       - helm upgrade --install $RELEASE_NAME . --reuse-values 
   post_build:
     commands:
