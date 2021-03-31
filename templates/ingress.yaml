@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/load-balancer-attributes: idle_timeout.timeout_seconds=60
-    external-dns.alpha.kubernetes.io/hostname: saga-ra3-api.jz.demilitarised.zone
+    external-dns.alpha.kubernetes.io/hostname: {{ .Values.ingress.apiUrl }}
   labels:
     app: my-app
 spec:
